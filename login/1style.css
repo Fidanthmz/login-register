@@ -1,0 +1,82 @@
+body{
+    background-image: url(images/bacgrnd.jpg);
+
+    background-size: cover;
+   
+}
+h2{
+    color:rgb(138,141,152);
+}
+a{
+    color:aliceblue;
+    
+}
+.container{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding-top:80px;
+    margin:60px auto;
+    font-size: 18px;
+}
+.nameinfo{
+    display:flex;
+    flex-direction: column;
+    
+   
+
+}
+.uname{
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 70px 0 70px 0;
+    width: 23em;
+    height: 1.8em;
+    font-size: 16px;
+
+   
+}
+.password{
+    display:flex;
+    flex-direction: column;
+
+}
+.pass{
+    text-align: center;
+    height: 1.8em;
+    border-radius: 70px 0 70px 0;
+    margin: 10px auto;
+    border: 3px solid black;
+    width: 23em;
+    font-size: 16px;
+
+}
+label{
+
+    color:rgb(138,141,152);
+    font-size: 18px;
+}
+.submit{
+    margin: 10px auto;
+    height: 1.5em;
+    padding-top: 3px;
+    width: 7em;
+    font-size: 16px;
+    border: 3px solid rgb(17,97,238);
+
+}
+.submit:hover{
+    background-color: rgb(17,97,238);
+}
+.forgap{
+    padding-top: 10px;
+   
+    
+
+}
+.forgot{
+    padding-top: 50px;
+    padding-left: 100px;
+}
